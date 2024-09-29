@@ -1,0 +1,53 @@
+.mainImage {
+  height: 680px;
+  width: 1520px;
+  position: absolute;
+  z-index: 0; 
+  
+}
+.dealCardsButton {
+  z-index: 2;
+  height: 136px;
+  width: 304px; 
+  background-color: aqua;
+  font-size: 16;
+}
+.container {
+  display:grid; 
+  grid-template-rows: 136px 136px 136px 136px 136px;
+  grid-template-columns: 304px 304px 304px 304px 304px;
+}
+
+.item-1 {
+  grid-area: 1 / 1 / -1 / -1;
+}
+
+.item-2 {
+  grid-area: 4 / 3 / 5 / 4;
+  z-index: 1;
+}
+
+.item-3 {
+  grid-area: 5 / 1 / 6 / 2;
+  z-index: 1;
+  color: aqua;
+}
+
+.item-4 {
+  grid-area: 5 / 5 / 6 / 6;
+  z-index: 1;
+  color: aqua;
+}
+
+.item-5 {
+  grid-area: 1 / 1 / 2 / 2;
+  z-index: 1;
+  color: aqua;
+}
+
+.item-6 {
+  grid-area: 1 / 5 / 2 / 6;
+  z-index: 1;
+  color: aqua;
+}
+
